@@ -1,0 +1,91 @@
+ID,Name,Magic,Elements,SDMG 50_40_30_20,DMG 50_40_30_20,LDMG 50_40_30_20,Accuracy 90_80_70_60,Difficultie(s): Easy Normal Hard Lunatic,Mods,,"Type of Move (offenssive, support etc) to be added"
+0,ADMIN BUTTON,1,0,1000,1000,1000,100,0_1_2_3,0,,Instant win for testing
+1,"Gyoku Sign ""Global Domain""",0,9_3_4_16,10,10,10,60,0_1_2_3,6,SinGyoku,Earth Light Dark Almighty
+2,"Shin Sign ""Oni's Volcano""",1,6_17_16,20,20,20,60,0_1_2_3,3,,Fire Unholy Almighty
+3,"Shin Sign ""Souhei's River""",1,7_19_16,20,20,20,60,0_1_2_3,8,,Water Holy Almighty
+4,"Pentacular Sign ""Directional Lasers""",1,3_19,10,15,25,100,0_1_2_3,1_3,YuugenMagan, Light Unholy
+5,"Short-Sight Sign ""Eye Dart Barrier""",0,10_4_14,30,20,5,60,0_1_2_3,7,,Synth Dark Fear
+6,"Medium-Sight Sign ""Convalescent Wave""",0,10_3_12,15,30,15,60,0_1_2_3,0,,Synth Light Fortitude
+7,"Long-Sight Sign ""Arrogant Beholder""",1,10_6_13,5,20,30,60,0_1_2_3,3,,Synth Fire Joy
+8,"Pentagram Sign ""Starry Eyes""",1,10_3_6_19,30,35,45,100,3,1,,Synth Light Unholy
+9,"Ocular Sign ""Deviating Lasers""",1,3_19,15,20,30,80,0_1_2_3,1_3,Elis,Light Unholy
+10,"Star Sign ""Shooting Starrage""",1,3_6,30,20,15,80,0_1_2_3,1_6,,Light Fire
+11,"Scarlet Sign ""Chiroptera Cannonade""",0,5_4,20,20,20,70,0_1_2_3,7_8,,Ichor Dark
+12,"Pentagram Sign ""Staral""",1,19_3_8,30,30,30,80,2_3,1_5,,Unholy Light Wind
+13,"Pentagram Sign ""Starfall""",1,19_3_7,35,35,35,90,2_3,1,,Unholy Light Water
+14,"Pentagram Sign ""Starrow""",1,19_3_10,35,40,45,70,3,1_7,,Unholy Light Synth
+15,"Pentagram Sign ""Starscream""",1,19_3_15,30,50,30,70,3,1_3,,Unholy Light Despair
+600,"Moon Sign ""Moonlight Ray""",1,3_4,5,10,20,100,2_3,1,Rumia,Light Dark
+601,"Night Sign ""Night Bird""",0,4_8,10,20,5,80,0_1_2_3,2,,Dark Wind
+602,"Darkness Sign ""Demarcation""",0,4_5,20,10,5,80,0_1_2_3,2,,Dark Ichor
+603,"Fairy Sign ""Ring of Growth""",1,9_1,30,20,10,60,0_1,8,Dai,Earth Life
+604,"Fairy Sign ""Ring of Governance""",1,9_1_13,50,40,30,70,2_3,8,,Earth Life Fortitude
+605,"Nature Sign ""God's Wisdom""",1,9_16,10,20,30,60,0_1,5,,Earth Almighty
+606,"Nature Sign ""God's Wrath""",1,9_16_14,30,40,50,70,2_3,5,,Earth Almighty Fear
+607,"Ice Sign ""Icicle Fall""",0,7_10,0,20,5,60,0_1,9,Cirno,Water Synth
+608,"Hail Sign ""Hailstorm""",1,7_8,25,15,15,70,2_3,9,,Water Wind
+609,"Freeze Sign ""Perfect Freeze""",1,7_10,10,25,10,80,0_1_2_3,9,,Water Synth
+610,"Snow Sign ""Diamond Blizzard""",0,7_8,15,20,15,70,1_2_3,9,,Water Wind
+611,"Flower Sign ""Gorgeous Sweet Flower""",1,9_1,40,30,10,70,0_1,6,Meiling,Earth Life
+612,"Flower Sign ""Selaginella 9""",1,9_1,30,40,10,70,2_3,6,NERF PLZ,Earth Life
+613,"Rainbow Sign ""Wind Chime of Colorful Rainbow""",1,3_8_7,30,20,15,80,0_1_2_3,0,,Light Wind Water
+614,"Illusion Sign ""Flower Imaginary Dream Vine""",1,1_4_0,30,20,15,80,2_3,0,,Life Dark Void
+615,"Colorful Sign ""Colorful Rain""",0,11_7,20,20,20,90,0_1,0,,Spirit Water
+616,"Colorful Sign ""Colorful Light Chaotic Dance""",0,11_3,30,30,30,90,2_3,0,,Spirit Light
+617,"Colorful Sign ""Extreme Color Typhoon""",0,11_8,40,40,40,90,1_2_3,0,,Spirit Wind
+618,"Thrall Sign ""Dark Guide""",0,10_4_19,30,30,30,90,0_1,4,Koakuma,Synth Dark Unholy
+619,"Thrall Sign ""Black Bible""",0,10_4_19,40,40,40,90,2_3,4,,Synth Dark Unholy
+620,"Succubus Sign ""Entrancing Spiral""",1,14_6_19,40,20,40,80,0_1,4,,Dark Fire Unholy
+621,"Succubus Sign ""Alluring Helix""",1,14_6_19,50,30,50,80,2_3,4,,Dark Fire Unholy
+622,"Fire Sign ""Agni Shine""",1,6,30,20,10,60,0_1,3,Patchy,Fire
+623,"Water Sign ""Princess Undine""",1,7,10,20,30,60,0_1,8,,Water
+624,"Wood Sign ""Sylphae Horn""",1,8,10,20,30,60,0_1,5,,Wind
+625,"Earth Sign ""Lazy Trilithon""",1,9,30,20,10,60,0_1,6,,Earth
+626,"Metal Sign ""Metal Fatigue""",1,10,20,20,20,60,0_1,7,,Synth
+627,"Fire Sign ""Agni Shine High Level""",1,6_6,40,40,20,70,1_2_3,3,,Fire x2
+628,"Wood Sign ""Sylphae Horn High Level""",1,8_8,20,40,40,70,1_2_3,5,,Wind x2
+629,"Earth Sign ""Lazy Trilithon High Level""",1,9_9,40,40,20,70,1_2_3,6,,Earth x2
+630,"Fire Sign ""Agni Radiance""",1,6_12,40,30,20,60,2_3,3,,Fire Joy
+631,"Water Sign ""Bury In Lake""",1,7_15,20,30,40,60,2_3,8,,Water Despair
+632,"Wood Sign ""Green Storm""",1,8_13,20,30,40,60,2_3,3,,Wind Fortitude
+633,"Earth Sign ""Trilithon Shake""",1,9_14,40,30,20,60,2_3,5,,Earth Fear
+634,"Metal Sign ""Silver Dragon""",1,10_11,30,30,30,60,2_3,7,,Synth Spirit
+635,"Fire & Earth Sign ""Lava Cromlech""",1,6_9,60,40,20,60,2_3,3_6,,Fire Earth
+636,"Wood & Fire Sign ""Forest Blaze""",1,8_6,40,20,40,60,2_3,5_3,,Wind Fire
+637,"Water & Wood Sign ""Water Elf""",1,7_8,20,40,60,60,2_3,8_5,,Water Wind
+638,"Metal & Water Sign ""Mercury Poison""",1,10_7,30,30,50,70,2_3,4_8,,Synth Water
+639,"Earth & Metal Sign ""Emerald Megalith""",1,9_10,50,30,30,70,2_3,5_7,,Earth Synth
+640,"Conjuring ""Misdirection""",1,0_10,20,20,20,90,0_1,7,Sakuya,Void Synth
+641,"Conjuring ""Illusional Misdirection""",1,0_10,30,30,30,90,2_3,7,Rare Extra turn,Void Synth
+642,"Illusion Existence ""Clock Corpse""",0,10_5,50,40,20,80,0_1,7,Damage might be too high lmao,Synth Ichor
+643,"Illusion Image ""Luna Clock""",0,0,40,40,40,100,0_1,100,,Void
+644,"Maid Secret Skill ""Puppetry Doll""",0,0_1,20,40,50,80,0_1,7,,Void Life
+645,"Illusion Phantom ""Jack the Ludo Bile""",0,10_5,60,50,30,80,2_3,7,,Synth Ichor
+646,"Illusion World ""The World""",0,0,50,50,50,100,2_3,100,,Void
+647,"Maid Secret Skill ""Killing Doll""",0,0_2,50,50,60,80,2_3,7,,Void Death
+648,"Conjuring ""Eternal Meek""",0,10_13,40,40,40,90,1_2_3,7,Stage 6 attack,Synth Fortitude
+649,"Heaven's Punishment ""Star of David""",1,3_19,30,30,30,70,0_1,7_8,Remilia,Light Unholy
+650,"Nether Sign ""Scarlet Netherworld""",1,5_6,50,40,20,70,0_1,0,,Ichor Fire
+651,"Curse ""Curse of Vlad Tepes""",0,5_2,30,30,30,70,0_1,7_8,Healing,Ichor Death
+652,"Scarlet Sign ""Scarlet Shoot""",0,5_8,20,40,50,90,0_1,0,,Ichor Wind
+653,"""Red Magic""",1,5_16,50,50,50,80,0_1,0,,Ichor Almighty
+654,"Divine Punishment ""Young Demon Lord""",1,4_19,40,40,40,70,2_3,7_8,,Dark Unholy
+655,"Hell Sign ""Mountain of a Thousand Needles""",0,5_10,60,50,30,70,2_3,0,,Ichor Synth
+656,"God Art ""Vampire Illusion""",1,5_0,40,40,40,70,2_3,7_8,,Ichor Void
+657,"Scarlet Sign ""Scarlet Meister""",0,5_9,30,50,60,90,2_3,0,,Ichor Earth
+658,"""Scarlet Gensokyo""",1,5_16,60,60,60,80,2_3,0,Ouch,Ichor Dark Almighty
+659,"Moon Sign ""Silent Selene""",1,4_7,20,40,60,70,0_1_2_3,2_4,EX Patchouli,Dark Water
+660,"Sun Sign ""Royal Flare""",1,3_6,60,40,20,70,0_1_2_3,1_3,,Light Fire
+661,"Fire Water Wood Metal Earth Sign ""Philosopher's Stone""",1,6_7_8_10_9,60,60,60,60,2_3,3_4_5_6_7,,Fire Water Wind Synth Earth
+662,"Taboo ""Cranberry Trap""",1,5_15,30,30,30,100,0_1_2_3,0,Flandre,Ichor Despair
+663,"Taboo ""Laevateinn""",0,9_2,40,40,40,70,0_1_2_3,0,,Earth Death
+700,"Frost Sign ""Frost Columns""",0,7_10,10,20,30,80,2,9,Letty,Water Synth
+701,"Frost Sign ""Frost Columns -Lunatic-""",0,7_10,10,20,40,80,3,9,,Water Synth
+702,"Cold Sign ""Lingering Cold -Easy-""",1,7_0,5,10,15,70,0,9,,Water Void
+703,"Cold Sign ""Lingering Cold""",1,7_0,15,20,25,70,1,9,,Water Void
+704,"Cold Sign ""Lingering Cold -Hard-""",1,7_0,25,30,35,70,2,9,,Water Void
+705,"Cold Sign ""Lingering Cold -Lunatic-""",1,7_0,35,40,45,70,3,9,,Water Void
+706,"Winter Sign ""Flower Wither Away -Easy-""",0,7_2,35,10,10,60,0,9_2,,Water Death
+707,"Winter Sign ""Flower Wither Away""",0,7_2,45,15,15,60,1,9_2,,Water Death
+708,"White Sign ""Undulation Ray""",1,3_2,20,40,40,60,2,9,,Light Death
+709,"Mystic Sign ""Table-Turning""",0,11_2,35,55,35,60,3,5_6,,Spirit Death

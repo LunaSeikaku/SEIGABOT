@@ -1,0 +1,7 @@
+When,P1C,P2,P3,P4,P5,P6,P1E,P2,P3,P4,P5,P6,Description,,,,,When:,,C for Conditions
+1,0,0,0,0,0,0,0,0,0,0,0,0,"P1, P2, P3, P4 and P5 immediately commence their plan to ambush P6 right off the bat, slaughtering them.",,,,,1 = Start,,E for Effects
+,,,,,,,,,,,,,,,,,,2 = Generic,,
+,,,,,,,,,,,,,,,,,,3 = Daytime,,
+,,,,,,,,,,,,,,,,,,4 = Nighttime,,
+,,,,,,,,,,,,,,,,,,5 = Duel,,
+,,,,,,,,,,,,,,,,,,6 = Extreme (EX),,

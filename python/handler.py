@@ -7,8 +7,6 @@ from data import DataHandler as Dh
 dh = Dh() # processor (successful print outputs into C# process) 
 a = sys.argv # input arguments
 
-#print("***"+a[1]+"|"+a[2]+"|***")
-#print(dh.commands[a[1]](a[2]))
 try:print(dh.commands[a[1]](a[2],a[3],a[4],a[5],a[6]))
 except:
     try:print(dh.commands[a[1]](a[2],a[3]))

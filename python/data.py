@@ -1,4 +1,4 @@
-# By Robbie Munro 14/09/19
+# By LunaSeikaku (Robbie Munro) 15/09/19
 import csv # for saving and loading data at start and end of running
 import random as rng # for decisions
 import copy as cop # for object instances ie. in battle to avoid changing the underlying touhou values

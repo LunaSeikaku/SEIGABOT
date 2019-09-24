@@ -1,8 +1,7 @@
-# By LunaSeikaku (Robbie Munro) 15/09/19
 import csv # for saving and loading data at start and end of running
 import random as rng # for decisions
 import copy as cop # for object instances ie. in battle to avoid changing the underlying touhou values
-from PIL import Image # for horizontal !war team image creation
+from PIL import Image # for horizontal !!2hu team image creation
 import numpy as np # see above
 import matplotlib.pyplot as plt #for balance graphing
 class Player: # Info on a discord user
@@ -348,7 +347,7 @@ class Stat: #holds a single statistic for one player's forces
         self.name = n
 class Data:
     def __init__(self):
-        self.players = [] # discord shit, remember to export data when possible to import on reboot
+        self.players = []
         self.spellcards = []
         self.touhous = []
         self.touhousbystage = [[],[],[],[],[],[],[]]
@@ -361,9 +360,8 @@ class Data:
                 r = csv.reader(f)
                 for i in r:
                     self.statuses.append(Effect(int(i[0]),int(i[1]),i[2],i[3],int(i[4]),int(i[5]),int(i[6])))
-        except Exception as e:
-            print(e)
-           #print ("Error! Is fecs.csv in the csv folder?")
+        except:
+           print ("Error! Is fecs.csv in the csv folder?")
         try:
             with open('./csv/eles.csv', 'r') as fi:
                 next(fi)
@@ -445,7 +443,7 @@ class Data:
                             t = cop.copy(self.getTouhouByName(s[0]))
                             t.rarity = s[1]
                             bp.append(t)
-                    self.players.append(Player(int(i[0]),i[1],sec,fr,br,bp,int(i[10]))) #int(i[0])???
+                    self.players.append(Player(int(i[0]),i[1],sec,fr,br,bp,int(i[10])))
         except:
            print ("Error! Is plrs.csv in the csv folder?")
     def getPlayers(self):return self.players
@@ -483,7 +481,7 @@ class Data:
                     t = self.getTouhouByName(s[0])
                     t.rarity = s[1]
                     bp.append(t)
-            self.players.append(Player(int(p[0]),p[1],p[2],fr,br,bp,int(p[10]))) #int(i[0])???
+            self.players.append(Player(int(p[0]),p[1],p[2],fr,br,bp,int(p[10]))) 
             return self.players[len(self.players)-1]
         except:
             print ("Error! Is plrs.csv in the csv folder?")
@@ -540,15 +538,17 @@ class Data:
 
 class DataHandler:
     def __init__(self):
-        self.Data = Data() # To add: player shit, battle features, commands for bot
+        self.Data = Data() # To add: finish Spellcards and Touhou pictures, more player shit, more battle features, more commands for bot
         self.status = {1:self.illuminate,2:self.blind,3:self.burn,4:self.poison,5:self.stun,6:self.concuss,7:self.bleed,8:self.heal,9:self.freeze,10:self.disease,11:self.charm,12:self.siren,100:self.extraturn}
         self.commands = {"help":self.help,"battle":self.singleplayer,"singlebattle":self.singleplayer,
                          "teambattle":self.multiplayer,"multibattle":self.multiplayer,"multiplayer":self.multiplayer,"multiteam":self.multiteam,
                          "stages":self.stages,"balance":self.balanceCheck,"":self.z,
                          "*Personal:*":self.z,"backpack":self.backpack,"viewbackpack":self.viewbackpack," ":self.z,
-                         "secretary":self.secretary,"setsecretary":self.setSecretary,"  ":self.z,
-                         "touhou":self.touhou,"setteam":self.setTeam,"clearteam":self.clearTeam,"   ":self.z,
-                         "duel":self.duel,"teamduel":self.teamduel,"catch":self.catch,"adventure":self.adventure} # " " gaps used for more efficient displaying on Discord
+                         "secretary":self.secretary,"viewsecretary":self.secretary,"setsecretary":self.setSecretary,"  ":self.z,
+                         "team":self.setTeam,"viewteam":self.setTeam,"setteam":self.setTeam,"clearteam":self.clearTeam,"   ":self.z,
+                         "touhou":self.touhou,"    ":self.z,
+                         "catch":self.catch,"adventure":self.adventure,"     ":self.z,
+                         "duel":self.duel,"teamduel":self.teamduel} # " " gaps used for more efficient displaying on Discord
     def grabName(self): # Output random touhou name to bot
         return rng.choice(self.Data.touhous).name
     def z(self):pass # for easier command listing # debug?
@@ -683,8 +683,8 @@ class DataHandler:
         # rarity buff:
         rs = ["N","SR","SSR","USSR"]
         for r in enumerate(rs):
-            if attacker.rarity==r[1]: dmg*= (r[0]*0.1)+1 # 1.0x to 1.3x boost
-            if defender.rarity==r[1]: dmg*= 1-(r[0]*0.1) # 1.0x to 0.7x boost
+            if attacker.rarity==r[1]: dmg*= (r[0]*0.1)+1 # 1.0x to 1.3x end DMG boost
+            if defender.rarity==r[1]: dmg*= 1-(r[0]*0.1) # 1.0x to 0.7x end DMG boost
         return s,dmg
     # Parts from a battle between at least 2 opposing Touhous, consisting of a series of 'turns' above:
     def rps(self,who,d): # Choose attack. d = difficulty (4 = any)
@@ -868,6 +868,15 @@ class DataHandler:
         s+=ss
         
         ateam,bteam = [[a,b,c],[d,e,f]],[[u,v,w],[x,y,z]]
+        return self.multibattle(s,ateam,bteam) # all diffuclties
+    def multiplayerORIGINAL(self):
+        s = ""
+        ateam,bteam = [[],[]],[[],[]]
+        for i in range(3):
+            ateam[0].append(cop.copy(self.Data.newhu())) # debug only
+            ateam[1].append(cop.copy(self.Data.newhu())) # debug only
+            bteam[0].append(cop.copy(self.Data.newhu())) # debug only
+            bteam[1].append(cop.copy(self.Data.newhu())) # debug only
         return self.multibattle(s,ateam,bteam) # all diffuclties
     def singleplayer(self,x,y):
         s = ""
@@ -1161,5 +1170,5 @@ class DataHandler:
 # Battle Phases: Selection of Touhou -> Battle loop -> Stats
 # Resistances and Immunities
 # print damage calculation
-# Empty 2hu
+# Deal with Empty Player slots
 # Replace catch with better rarity unless LEGENDARY

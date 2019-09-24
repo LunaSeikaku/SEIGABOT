@@ -1,4 +1,4 @@
-# INPUT: C# Process '!!war' command with various args
+# INPUT: C# Process '!!2hu' command with various args
 # PROCESS: Using data.py
 # OUTPUT: Unparsed string for parsing in C# CommandHandler
 import sys

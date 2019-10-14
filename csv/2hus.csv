@@ -1,6 +1,6 @@
 "ID (stage, order)",Name,Game (string?),Stage,Description,Major,Minor,"HP 1000,750",PHATK,MPATK,DODGE,IMMUNES (0 = none),SPELLCARDS
-1,Reimu,8,4,The dark and edgy youkai before it was cool.,11,10,400,15,25,40,0,600_601_602
-2,Marisa,8,4,The dark and edgy youkai before it was cool.,3,6,600,5,40,25,0,600_601_602
+1,Reimu,8,4,To change.,11,10,400,15,25,40,0,600_601_602
+2,Marisa,8,4,To change,3,6,600,5,40,25,0,600_601_602
 3,SinGyoku,1,1,SinGyoku appears as Reimu Hakurei approaches the gates to Hell and Makai in Highly Responsive to Prayers. SinGyoku seems to have three different forms. SinGyoku is the first boss in the entire Touhou Project series.,10,16,400,20,20,10,0,1_2_3
 4,YuugenMagan,1,3,"YuugenMagan is a being that Reimu Hakurei encounters in Makai in the PC-98 game Highly Responsive to Prayers. YuuganMagan is a hovering set of five independently-moving eyes, connected by electricity and surrounded by strange markings. YuugenMagan's stage boss has the most hit boxes in the series that affects the same health bar, coming second would be the Prismriver Sisters in Perfect Cherry Blossom.",10,6,800,15,30,5,0,4_5_6_7_8
 5,Elis,1,5,"Elis is a devil of some kind that Reimu Hakurei encounters while in Makai's Ruins of Vina during Highly Responsive to Prayers. Elis is one of the few PC-98 characters whose hair and eyes are not the same color. Elis is the first boss in the series to use a ""magic circle"", the (now scarlet) circle used by many bosses of the Windows series games.",5,4,900,25,25,25,0,9_10_11_12_13_14_15

@@ -24,7 +24,7 @@ Features:
 	- Single and team battles, from 1v1, to 6v6, to theoretically XvX
 		- Uses numpy and PIL for creation of team images (lineup of your characters) without compromising overhead
 	- Status effects, critical hits, misses and more
-	- Elemental system
+	- Elemental damage system
 - Battles play out in real time on Discord, as messages provide an ongoing battle feed
 - Players can gather Touhou characters, have them go on adventures, and battle them against other Players
 	- Players can have a Touhou Secretary that fights most 1 duels for them

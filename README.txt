@@ -56,3 +56,4 @@ Things still to add:
 IMAGES OF BOT IN ACTION:
 Discord Log of a battle between 2 Touhou character: https://imgur.com/a/G8RjKUS
 Graphing of 10 battles between 2 Touhou characters (used for balancing): https://imgur.com/a/af3tn2s
+Obtaining a new Random Touhou using my Player Points: https://imgur.com/a/BQWiobZ

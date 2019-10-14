@@ -22,6 +22,7 @@ Features:
 	- Touhou characters have various rarities
 		- If a duplicate Touhou is found by a Player, their original Touhou moves to the next higher rarity
 	- Single and team battles, from 1v1, to 6v6, to theoretically XvX
+		- Uses numpy and PIL for creation of team images (lineup of your characters) without compromising overhead
 	- Status effects, critical hits, misses and more
 	- Elemental system
 - Battles play out in real time on Discord, as messages provide an ongoing battle feed
@@ -51,3 +52,7 @@ Things still to add:
 - Commands still have to be finalized, run against test cases and made robust and consistent. Unexpected issues may occur.
 - Further statistical information for more accurate graphs and after-battle reports.
 - Full guide!
+--------------------------------------------------------------------------------------------------------------------------------------------
+IMAGES OF BOT IN ACTION:
+Discord Log of a battle between 2 Touhou character: https://imgur.com/a/G8RjKUS
+Graphing of 10 battles between 2 Touhou characters (used for balancing): https://imgur.com/a/af3tn2s

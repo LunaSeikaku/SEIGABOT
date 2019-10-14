@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 // The hosted Discord Bot task.
 // By LunaSeikaku
-// simply converts C# output into Python input, and Python output into C# input
+// simply converts C# output into Python input, and Python output into C# input 
 
 namespace Seigabot
 {

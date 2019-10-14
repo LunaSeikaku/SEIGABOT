@@ -1,10 +1,10 @@
-Touhou Project (東方Project) is created by ZUN of Team Shanghai Alice:
+Touhou Project (東方Project) is a creation by ZUN of Team Shanghai Alice:
 http://www16.big.or.jp/~zun/
 
-Touhou fan images created by Dairi:
+Uses Touhou fan images created by Dairi:
 https://www.pixiv.net/member.php?id=4920496
 
-SEIGATRON created by LunaSeikaku:
+SEIGATRON created by Robbie Munro (LunaSeikaku):
 https://github.com/LunaSeikaku
 --------------------------------------------------------------------------------------------------------------------------------------------
 SEIGATRON V.0.8
@@ -31,7 +31,7 @@ Features:
 	- Players have a Backpack that stores any Touhou characters they find for battle later
 	- Players have Points they can use to perform cooler commands like PvP
 - Customisable Character list, Spellcard list, Element list, etc for the owner of the Bot
-	- Tip: use the '!!balance TouhouX TouhouY' command when editing data. It will simulate 10 battles for you on each difficulty, and graph them for your perusal. 
+	- Tip: use the '!!balance TouhouX TouhouY' command when editing data. It will simulate 10 battles for you on each difficulty, and graph them for your perusal.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Install:
 1: Open _path.txt, enter the path to your Python.exe, save and close.
